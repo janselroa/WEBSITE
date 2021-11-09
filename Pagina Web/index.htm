@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--CSS-->
+    <link rel="stylesheet" href="/Users/macbookpro/Documents/Real_Academia_Maraca/Pagina Web/Css/style.css">
+    <!--ICON-->
+    <link rel="shortcut icon" href="/Users/macbookpro/Documents/Real_Academia_Maraca/Pagina Web/assets/favicon.ico">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d1e69fd2d.js" crossorigin="anonymous"></script>
+    <title>RAM</title>
+</head>
+<body>
+    <div class="background">
+        <div class="barra" id="menu">
+            <img src="/Users/macbookpro/Documents/Real_Academia_Maraca/Pagina Web/assets/Logo.png" class="logo" alt="Logo" height="100px" />
+
+
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="#tabla">Horarios</a></li>
+                <li><a href="#foto">Galeria</a></li>
+                <li><a href="#Contact">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="p1">
+            <div class="titulo">
+              <h1 class="text-center">Real Academia Maracaneiros</h1>
+    
+              <p>Escuela de formacion deportiva, el lugar perfecto para realizar tu pasión.</p>
+            </div>
+        </div> 
+    </div>
+    <div class="acerca" id="acerca">
+        <div class="text">
+          <div class="acerca2" id="acercade">
+            <div
+              style="
+                margin: 80px;
+                border-right: 5px solid #ff2323;
+                padding-right: 20px;
+              "
+            >
+              <p>
+                Escuela de Futbol enfocada a crear grandes deportistas y mas importante grandes personas.
+              </p>
+            </div>
+            <div style="margin: 80px">
+              <p>
+                En Real Academia Maracaneiros podra desarrolarte con jugador de futbol y mas importante
+                como una grande persona. En la escuela encontraras las categorias: 2008, 2009, 2010, 2012.
+                Ven y unte a la la familia RAM.
+              </p>
+            </div>
+        </div>
+    </div>
+    <div id="tabla">
+      <div class="background-tabla">
+      <br id="horarios" /><br /><br /><br /><br /><br />
+      <br /><br />
+      <table>
+        <thead>
+          <tr>
+            <td class="blanco">Día</td>
+            <td class="blanco">Horario</td>
+            <td class="blanco">Trabajo</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>Martes</td>
+          <td>4:00pm - 6:00pm</td>
+          <td>Entrenamiento Físico</td>
+        </tr>
+        <tr class="gray">
+          <td>Miercoles</td>
+          <td>4:00pm - 6:00pm</td>
+          <td>Entrenamiento tecnico y tactico</td>
+        </tr>
+        <tr>
+          <td>Jueves</td>
+          <td>4:00pm - 6:00pm</td>
+          <td>Entrenamiento Recreativo</td>
+        </tr>
+
+      </table>
+      </div>
+    </div>
+    <div class="torneos">
+      <div class="linea"></div>
+      <div class="text">
+        <div id="torneos">
+           <a href="https://www.facebook.com/pages/category/Sports/Torneo-Liga-Del-Oriente-337965530198160/"><img class="img-1" src="assets/img/descarga (3).png" alt="Liga del Oriente" height="200" width="200"></a>
+           <a href="https://festivaldefestivales.com/festivales/futbol/"><img class="img-2" src="assets/img/baby-futbol-colanta2260.png" alt="BabyFutbol" height="200" width="400"></a>
+           <a href="https://es-la.facebook.com/BOGOTALFB/"><img src="assets/img/Liga.png"></a>
+        </div>
+      </div>
+      <div class="linea"></div>
+      <!--Galeria-->
+      <section class="galeria" id="foto">
+        <a href="#img1">
+          <img src="assets/img/portfolio/Slide/1.jpg" alt="">
+        </a>
+        <a href="#img2">
+          <img src="assets/img/portfolio/Slide/2.jpg" alt="">
+        </a>
+        <a href="#img3">
+          <img src="assets/img/portfolio/Slide/3.jpg" alt="">
+        </a>
+        <a href="#img4">
+          <img src="assets/img/portfolio/Slide/4.jpg" alt="">
+        </a>
+        <a href="#img5">
+          <img src="assets/img/portfolio/Slide/5.jpg" alt="">
+        </a>
+        <a href="#img6">
+          <img src="assets/img/portfolio/Slide/6.jpg" alt="">
+        </a>
+      </section>
+    </div>
+    <!--Contact-->
+    <div class="contact" id="contact">
+      <form class="formulario" action="PHP/enviar.php" method="POST">
+        <h2>CONTACTO</h2>
+        <input type="text" name="name" placeholder="Ingrese su nombre y apellido" id="" required>
+        <input type="text" name="correo" placeholder="Ingrese su correo" id="" required>
+        <input type="text" name="numero" placeholder="Ingrese su numero" id="" required>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Ingrese su mensaje" required></textarea>
+        <button class="button" type="submit">Enviar Mensaje</button>
+      </form>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5896405116964!2d-74.10614478523783!3d4.6670170966099445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b9e2ec572b9%3A0x3e1c02dabbae5b04!2sClub%20egresados%20Unilibre!5e0!3m2!1ses!2sco!4v1635287397053!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" class="map" loading="lazy"></iframe>
+    </div>
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/6d1e69fd2d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>
